@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;500;600;700&display=swap"
         rel="stylesheet">
+     <script src="https://kit.fontawesome.com/1112dfef1a.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -21,7 +22,7 @@
                 <a href="./index.html" class="d-flex justify-content-center align-items-center mt-3">
                     <img src="./images/l.png" alt="logo">
                 </a>
-                <ul class=" nav col-12 col-lg-auto m-20">
+                <ul class="nav">
                     <li class="nav-item p"> Nav1</li>
                     <li class="nav-item p">Nav2</li>
                     <li class="nav-item p">Nav3 v</li>
@@ -67,8 +68,9 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <h2 class="m">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h2>
+                <div class="middle-content">
+                    <div class="d-flex justify-content-center card-h">Lorem ipsum dolor sit amet,consectetur adipiscing
+                        elit.</div>
                     <div class="d-flex justify-content-center card-wrapper">
                         <div class="card">
                             <div class="card-h-title">Lorem ipsum dolor sit.</div>
@@ -111,12 +113,13 @@
                     </div>
 
                 </div>
-                <div>
-                    <h2 class="m">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h2>
-                    <div class="d-flex flex-wrap justify-content-center">
+                <div class="middle-content">
+                    <div class="d-flex justify-content-center card-h">Lorem ipsum dolor sit amet,consectetur adipiscing
+                        elit.</div>
+                    <div class="d-flex justify-content-center card-wrapper">
                         <div class="cards">
                             <img src="./images/w.png" alt>
-                            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                            <h5 class="card-h-title">Lorem ipsum dolor sit.</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                                 sed
                                 commodo
@@ -131,7 +134,7 @@
                         </div>
                         <div class="cards">
                             <img src="./images/w1.png" alt>
-                            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                            <h5 class="card-h-title">Lorem ipsum dolor sit.</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                                 sed
                                 commodo
@@ -145,8 +148,8 @@
                             </p>
                         </div>
                         <div class="cards">
-                            <img src="./images/w2.png" alt="">
-                            <h5 class="card-title">Lorem ipsum dolor sit.</h5>
+                            <img src="./images/w2.png" alt="" class="image">
+                            <h5 class="card-h-title">Lorem ipsum dolor sit.</h5>
                             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
                                 sed
                                 commodo
@@ -161,25 +164,226 @@
                         </div>
                     </div>
                 </div>
-                <div>
-                    <h2 class="m">Lorem ipsum dolor sit amet,consectetur adipiscing elit.</h2>
-                    <div class="d-flex">
-                        <div class="d-flex  flex-column justify-content-start">
-                            <div class="d-flex">
-                                <img src="./images/m.png" alt="">
-                                <h5>Lorem ipsum dolor sit.</h5>
+                <div class="middle-content">
+                    <div class="d-flex justify-content-center card-h">Lorem ipsum dolor sit amet,consectetur adipiscing
+                        elit.</div>
+                    <div class="d-flex flex-column">
+                        <div class="odd">
+                            <div class="d-flex  flex-column justify-content-start">
+                                <div class="d-flex ">
+                                    <img src="./images/m.png" alt="">
+                                    <div class="side">Lorem ipsum dolor sit.</div>
+                                </div>
+                                <div class="side-content">
+                                    adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.<br>
+                                    ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
+                                </div>
+                                <div class="button-wrapper">
+                                    <button type="button" class="button">Check Pricing</button>
+                                </div>
                             </div>
-                            <div class="mt-10">
-                                <p>adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.</p>
-                                <p>ut maximus ante. Suspendisse varius dolor nec bibendum dignissim</p>
+                        </div>
+                        <br>
+                        <div class="even">
+                            <div class="d-flex  flex-column justify-content-end">
+                                <div class="d-flex">
+                                    <img src="./images/a.png" alt="">
+                                    <div class="side">Lorem ipsum dolor sit.</div>
+                                </div>
+                                <div class="side-content">
+                                    adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.<br>
+                                    ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
+                                </div>
+                                <div class="button-wrapper">
+                                    <button type="button" class="button">Check Pricing</button>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="odd">
+                            <div class="d-flex  flex-column justify-content-start">
+                                <div class="d-flex ">
+                                    <img src="./images/h.png" alt="">
+                                    <div class="side">Lorem ipsum dolor sit.</div>
+                                </div>
+                                <div class="side-content">
+                                    adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.<br>
+                                    ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
+                                </div>
+                                <div class="button-wrapper">
+                                    <button type="button" class="button">Check Pricing</button>
+                                </div>
+                            </div>
+                        </div>
+                        <br>
+                        <div class="even">
+                            <div class="d-flex  flex-column justify-content-end">
+                                <div class="d-flex">
+                                    <img src="./images/b.png" alt="">
+                                    <div class="side">Lorem ipsum dolor sit.</div>
+                                </div>
+                                <div class="side-content">
+                                    adipiscing elit. Ut sed commodo est.Pellentesque eu placerat mauris.<br>
+                                    ut maximus ante. Suspendisse varius dolor nec bibendum dignissim
+                                </div>
+                                <div class="button-wrapper">
+                                    <button type="button" class="button">Check Pricing</button>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div class="middle-content">
+                    <div class="d-flex justify-content-center card-h"> Lorem ipsum dolor sit.</div>
+                    <div class="table">
+                        <div class="d-flex i">
+                            <img src="./images/green star.png" alt class="img">
+                            <div class="side">
+                                Lorem ipsum dolor sit.
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-center card-wrappers">
+                            <div class="card-style">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div class="icon">
+                                            <img src="./images/ceo.png" alt="">
+                                        </div>
+                                        <div class="ms-2 c-details">
+                                            <h6 class="mb-0">Jhon Doe</h6> <span>ceo</span>
+                                        </div>
+                                    </div>
+                                    <div class="star">
+                                        <ul class="list-inline-small d-flex">
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.
+                                    Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec
+                                    bibendum dignissim. Proin in diam a justo sollicitudin mattis eu sagittis nunc. In
+                                    hac habitasse platea dictumst
+                                </p>
+                            </div>
+                            <div class="card-style">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div class="icon">
+                                            <img src="./images/operation manager.png" alt="">
+                                        </div>
+                                        <div class="ms-2 c-details">
+                                            <h6 class="mb-0">Amanda Green</h6> <span>Operations Manager</span>
+                                        </div>
+                                    </div>
+                                    <div class="star">
+                                        <ul class="list-inline-small d-flex">
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.
+                                    Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec
+                                    bibendum dignissim. Proin in diam a justo sollicitudin mattis eu sagittis nunc. In
+                                    hac habitasse platea dictumst
+                                </p>
+                            </div>
+                            <div class="card-style">
+                                <div class="d-flex justify-content-between">
+                                    <div class="d-flex flex-row align-items-center">
+                                        <div class="icon">
+                                            <img src="./images/cust.png" alt="">
+                                        </div>
+                                        <div class="ms-2 c-details">
+                                            <h6 class="mb-0">Sam Copper</h6> <span>Customer Service Manager</span>
+                                        </div>
+                                    </div>
+                                    <div class="star">
+                                        <ul class="list-inline-small d-flex">
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                            <li class="list-inline-item m-0">
+                                                <img src="./images/star.png" alt class="stars">
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <p class="text">
+                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed commodo est.
+                                    Pellentesque eu placerat mauris. Etiam ut maximus ante. Suspendisse varius dolor nec
+                                    bibendum dignissim. Proin in diam a justo sollicitudin mattis eu sagittis nunc. In
+                                    hac habitasse platea dictumst
+                                </p>
+                            </div>
+                        </div>
+                        <div class="but">
+                            <button onclick="" class="buttons"><i class="fa-sharp fa-solid fa-caret-right"></i></button>
+                        </div>
+
+                    </div>
+
+                </div>
+                <div class="middle-content">
+                    <div class="d-flex justify-content-center card-h">Lorem ipsum dolor sit amet,consectetur adipiscing
+                        elit.</div>
+                    <ul class="photo">
+                        <li>
+                            <img src="./images/forms on fire.png" alt>
+                            <div class="list">
+                                Forms on fire
+                            </div>
+                        </li>
+                        <li>
+                            <img src="./images/electric.png" alt>
+                            <div class="list">
+                                ElectroNeek Studio IDE
+                            </div>
+
+                        </li>
+                        <li>
+                            <img src="./images/frame.png" alt class="frame">
+                            <div class="list">
+                                Jot form
+                            </div>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
         <footer class="footer">
-
+            <div class="d-flex  foot">
+                &copy; Helplama 2021
+            </div>
         </footer>
     </div>
 </body>
