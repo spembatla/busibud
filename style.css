@@ -329,6 +329,10 @@ body {
         padding: 15px;
     }
 
+    .middle-content{
+        padding: 12px;
+    }
+
 }
 
 @media (max-width: 680px) {
@@ -358,7 +362,7 @@ body {
     }
 
     .but {
-        position: static;
+        display: none;
     }
 
     .photo {
@@ -398,7 +402,7 @@ body {
     }
 
     .but {
-        position: static;
+        display: none;
     }
 
     .text {
