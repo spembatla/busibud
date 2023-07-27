@@ -57,7 +57,7 @@ body{
     box-shadow: 0px 3px 6px #00000029;
     background-color: #fff;
     padding: 20px;
-    width: 308px;
+    width: 350px;
     height: 320px;
     text-align: center;
 }
@@ -251,27 +251,40 @@ body{
     .card-style{
         width: auto;
         height: auto;
-        padding: 10px;
+        padding: 5px;
     }
 
     .card-wrappers{
-
+        left: 50px;
+        bottom: -50px;
     }
 
     .text{
         font-size: 13px;
     }
 
-    .but{
-        display: none;
-        /* padding: 250px 0px 0px 800px */
+    
+
+}
+
+@media (max-width: 990px){
+    .card{
+        width: auto;
+        font-size: 11px;
+        height: auto;
     }
 
+    .card-wrappers{
+        left: 10px;
+        bottom: -150px;
+    }
+
+    
 }
 
 @media (max-width: 770px) {
     .card{
-        
+        width: auto;
         padding: 20px;
         font-size: 11px;
     }
@@ -283,7 +296,7 @@ body{
     }
 
     .cards{
-        width: 16rem;
+        
         font-size: 13px;
     }
 
@@ -295,6 +308,9 @@ body{
 
     .card-wrappers{
         column-gap: 10px;
+        left: 10px;
+        bottom: -50px;
+
 
     }
 
@@ -302,9 +318,7 @@ body{
         font-size: 10px;
     }
     
-    .but{
-        padding: 250px 0px 0px 560px ;
-    }
+    
 
     .stars{
         width: 10px;
@@ -317,11 +331,46 @@ body{
 
 }
 
-@media (max-width: 440px) {
+@media (max-width: 680px){
+    .card{
+        width: auto;
+    }
+
+    .card-wrapper{
+        flex-direction: column;
+    }
+
+    .card-wrappers{
+        flex-direction: column;
+        position: static;
+
+    }
+
+    .card-style{
+        width: auto;
+        height: auto;
+    }
+
+    .table{
+        flex-direction: column;
+        padding: 0 15px;
+        height: auto;
+    }
+
+    .but{
+        position: static;
+    }
+
+    .photo{
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 480px) {
     .card{
         padding: 20px;
         font-size: 15px;
-        width: 260px;
+        
     }
     .card-wrapper{
         flex-direction: column;
@@ -332,6 +381,7 @@ body{
 
     .card-wrappers{
         flex-direction: column;
+        position: static;
 
     }
 
@@ -341,37 +391,37 @@ body{
     }
 
     .table{
-        height: 1250px;
+        flex-direction: column;
+        padding: 0 15px;
+        height: auto;
     }
 
     .but{
-        padding: 1200px 0 0 90px;
+        position: static;
     }
 
     .text{
         font-size: 13px;
     }
 
+    .middle-content{
+        padding: 15px;
+    }
+
     .photo{
-        display: inherit;
+        flex-direction: column;
     }
 }
 
 @media (max-width: 320px) {
-    .table{
-        height: 1400px;
-    }
-
-    .but{
-        padding: 1350px 0 0 90px;
-    } 
-
-    .middle-content{
-        padding: 30px;
-    }
+    
 
     .card{
-        width: 230px;
+        width: 280px;
         padding: 15px;
+    }
+
+    .cards{
+        width: 18rem;
     }
 }
